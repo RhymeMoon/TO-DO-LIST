@@ -8,14 +8,11 @@ h1 {
 body {
     height: 100vh;
     padding-top: 50px;
-    background-image: linear-gradient(180deg,#1a1a1a,#ffffff);
+    background-color: #1a1a1a !important;;
 }
 .container {
     width: 50% !important;
     padding: 20px;
-    background-color: #1a1a1a;
-    border: 3px solid #ff002f;
-    border-radius: 10px;
 }
 .task {
     border-radius: 10px;
