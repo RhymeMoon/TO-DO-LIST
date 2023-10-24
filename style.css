@@ -8,10 +8,14 @@ h1 {
 body {
     height: 100vh;
     padding-top: 50px;
-    background-image: linear-gradient(180deg, black,grey);
+    background-image: linear-gradient(180deg,#1a1a1a,#ffffff);
 }
 .container {
-    width: 40% !important;
+    width: 50% !important;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border: 3px solid #ff002f;
+    border-radius: 10px;
 }
 .task {
     border-radius: 10px;
@@ -23,12 +27,17 @@ body {
 
 buttons {
     cursor: pointer;
-    background-color: red !important;
+    background-color: #ff002f !important;
     color: white !important;
     font-weight: 800 !important;
     text-align: center;
     margin: 5px;
     
+}
+buttons:hover {
+    transform:scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
 }
 input{
     font-size: 20px !important;
@@ -42,9 +51,16 @@ input{
     text-align: center;
 }
 #newTaskSubmit  {
-    background-color: black;
+    background-color: #ff002f;
     color: white;
     border-radius: 5px;
+    
+}
+
+#newTaskSubmit:hover {
+    transform:scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 @media (max-width: 600px) {
